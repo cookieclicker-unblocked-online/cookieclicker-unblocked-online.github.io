@@ -3333,5 +3333,41 @@ STOP THE FANCY
 	-webkit-filter:none!important;
 }
 
+.popup-ad {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.popup-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    background: #ff0000;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 9998;
+}
 
 /**{overflow:hidden!important;}*/
